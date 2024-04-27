@@ -8,8 +8,9 @@ body,
 html {
   height: 100%;
 }
+/* legend styling*/
 .info.legend {
-  color: black; /* Set the text color of the legend title to black */
+  color: black;
 }
 
 .legend-chart {
@@ -20,7 +21,7 @@ html {
 .legend-item {
   display: flex;
   align-items: center;
-  margin-bottom: 5px; /* Add some margin between legend items */
+  margin-bottom: 5px;
 }
 
 .legend-square {
