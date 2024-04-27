@@ -1,0 +1,30 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#map,
+body,
+html {
+  height: 100%;
+}
+.info.legend {
+  color: black; /* Set the text color of the legend title to black */
+}
+
+.legend-chart {
+  display: flex;
+  flex-direction: column;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px; /* Add some margin between legend items */
+}
+
+.legend-square {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+}
